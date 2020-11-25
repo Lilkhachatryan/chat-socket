@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "script": "nodemon socket.js",
+  "scripts": {
+    "start": "nodemon socket.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chat-mongo-db": "^1.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6",
+    "shortid": "^2.2.16",
+    "socket.io": "^3.0.0"
+  }
+}
